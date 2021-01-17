@@ -55,7 +55,7 @@
 import { firestore } from "@/main";
 import { storage } from "@/main";
 import axios from "axios";
-import config from '../config/config';
+import {config} from '../config/index';
 
 export default {
   data: () => ({
